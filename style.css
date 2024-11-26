@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: flex-start;        /* Align items to the top */
+    align-items: space-around;          /* Center items horizontally */
+    flex-direction: column;             /* Stack items vertically */
+    height: 100vh;                      /* Full viewport height */
+    margin: 1%;                         /* Remove default body margin */
+    padding-top: 20px;                  /* Optional: Add some padding from the top */
+    background-color: #d3d3d3;
+}
+img {
+    border: 1px solid black;
+    margin: 1%;
+    width: 300px;
+}
+
+p, h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
